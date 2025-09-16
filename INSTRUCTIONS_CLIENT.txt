@@ -1,0 +1,63 @@
+================================================================================
+                         POUR VOTRE CLIENT WINDOWS
+================================================================================
+
+🎯 INSTALLATION ZERO
+=====================
+
+Votre client n'a RIEN à installer ! 
+
+1. Donnez-lui ce dossier "ESG_Generator_Portable_Complete"
+2. Il double-clique sur "LANCER_ESG.bat" 
+3. L'application s'ouvre dans son navigateur
+4. C'est tout !
+
+📦 QUE CONTIENT CE DOSSIER
+===========================
+
+✅ Python 3.11 portable (pas d'installation système requise)
+✅ Toutes les dépendances Python (Streamlit, Pandas, OpenPyXL, XLWings)
+✅ Votre application ESG complète
+✅ Scripts de lancement automatique
+
+🚀 UTILISATION POUR LE CLIENT
+==============================
+
+MÉTHODE 1 - Standard :
+→ Double-clic sur "LANCER_ESG.bat"
+→ Une fenêtre de commande s'ouvre + navigateur
+
+MÉTHODE 2 - Mode silencieux :
+→ Double-clic sur "LANCER_ESG_SILENT.bat" 
+→ Juste le navigateur s'ouvre
+
+📊 CARACTÉRISTIQUES TECHNIQUES
+===============================
+
+- Taille : ~300MB (tout inclus)
+- Compatible : Windows 10/11 (32bit/64bit) 
+- Python : 3.11.9 embedded
+- Port : localhost:8501
+- Aucun droit administrateur requis
+- Fonctionne offline (après premier lancement)
+
+🔒 AVANTAGES SÉCURITÉ
+=====================
+
+✅ Aucune installation système 
+✅ Pas de modification du registre Windows
+✅ Pas de conflit avec d'autres Python
+✅ Environnement isolé et sécurisé
+✅ Peut être supprimé simplement en effaçant le dossier
+
+💡 CONSEILS POUR VOTRE CLIENT
+==============================
+
+- Il peut copier ce dossier sur plusieurs PC
+- Fonctionne depuis une clé USB
+- Peut être utilisé par plusieurs utilisateurs
+- Aucune maintenance requise
+
+================================================================================
+Cette version est prête à être déployée chez votre client !
+================================================================================

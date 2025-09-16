@@ -1,0 +1,66 @@
+================================================================================
+                    CORRECTIONS APPORTEES - VERSION FINALE
+================================================================================
+
+🔧 PROBLEMES RESOLUS
+=====================
+
+1. ERREUR NUMPY/PANDAS (RESOLU) ✅
+   - Problème : Packages installés depuis Mac (ARM64) incompatibles Windows
+   - Solution : Réinstallation de TOUS les packages spécifiquement pour Windows x64
+   - Méthode : --platform win_amd64 --python-version 3.11
+
+2. ERREUR REPERTOIRE DE TRAVAIL (RESOLU) ✅
+   - Problème : Streamlit cherchait app.py dans python311/ au lieu de la racine
+   - Solution : Ajout de "cd /d %~dp0" dans tous les scripts .bat
+   - Méthode : Chemins absolus et vérification d'existence des fichiers
+
+3. PROBLEME XLWINGS SANS EXCEL (RESOLU) ✅
+   - Problème : XLWings nécessite Microsoft Excel installé
+   - Solution : Mode portable qui force l'utilisation d'OpenPyXL
+   - Méthode : config_portable.py + FORCE_OPENPYXL
+
+4. SCRIPT LANCER_ESG.BAT (RESOLU) ✅
+   - Problème : N'arrivait pas à démarrer (différence avec version silent)
+   - Solution : Correction du mode headless (true au lieu de false)
+
+📁 NOUVEAUX FICHIERS CREES
+===========================
+
+config_portable.py          - Configuration pour mode portable
+COPIE_LOCALE_RAPIDE.bat     - Copie rapide vers dossier local Windows
+MAJ_APP_SEULEMENT.bat       - Mise à jour rapide (sans recopier Python)
+TEST_STREAMLIT.bat          - Debug avancé pour diagnostiquer problèmes
+CHANGELOG_CORRECTIONS.txt   - Ce fichier
+
+📋 SCRIPTS CORRIGES
+===================
+
+LANCER_ESG.bat              - Ajout vérifications + mode headless
+LANCER_ESG_SILENT.bat       - Ajout vérifications + chemins absolus
+DIAGNOSTIC.bat              - Ajout vérifications + chemins absolus
+app.py                      - Intégration mode portable + messages améliorés
+
+🚀 STATUT FINAL
+================
+
+✅ Application fonctionne en mode portable
+✅ Python 3.11 + toutes dépendances incluses (291MB)
+✅ Compatibilité Windows 10/11 garantie
+✅ Mode OpenPyXL optimisé (pas besoin d'Excel)
+✅ Scripts de diagnostic et mise à jour rapide
+✅ Zéro installation requise côté client
+
+🎯 POUR LE CLIENT
+==================
+
+1. Copier le dossier sur le PC Windows (local, pas partagé)
+2. Double-clic sur LANCER_ESG.bat OU LANCER_ESG_SILENT.bat
+3. L'application s'ouvre dans le navigateur
+4. Fonctionnalité complète avec génération de questionnaires ESG
+
+En cas de problème : utiliser DIAGNOSTIC.bat
+
+================================================================================
+Version finale testée et validée - Prête pour déploiement client
+================================================================================

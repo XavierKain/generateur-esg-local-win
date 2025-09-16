@@ -1,0 +1,70 @@
+================================================================================
+                      VERSION XLWINGS EXCLUSIVE - FINI!
+================================================================================
+
+🚫 TOUS LES FALLBACKS OPENPYXL SUPPRIMES
+=========================================
+
+✅ generateur_2025_streamlit.py - Fallbacks supprimés, XLWings requis
+✅ app.py - Interface mise à jour, plus de mention OpenPyXL
+✅ xlwings_generator.py - Amélioration initialisation Windows
+✅ pywin32 ajouté - Meilleure compatibilité Windows Excel
+
+🎯 COMPORTEMENT MAINTENANT
+===========================
+
+AVANT:
+- XLWings échoue → Fallback vers OpenPyXL
+- Message: "🔄 Utilisation de la méthode openpyxl..."
+
+MAINTENANT:
+- XLWings échoue → ARRÊT COMPLET
+- Message: "❌ XLWINGS REQUIS: [raison]"
+- Plus aucun fallback possible
+
+🔧 MESSAGES D'ERREUR EXPLICITES
+================================
+
+Si XLWings ne fonctionne pas, vous verrez:
+❌ XLWINGS REQUIS: Excel non accessible via xlwings
+❌ XLWINGS REQUIS: Module XLWings non disponible
+❌ XLWINGS REQUIS: XLWings est désactivé
+
+🚀 POUR DIAGNOSTIQUER ET CORRIGER
+==================================
+
+1. Lancez "FORCER_XLWINGS.bat" pour diagnostic complet
+2. Le script vérifiera:
+   - Présence d'Excel
+   - Fonctionnement XLWings  
+   - Configuration COM
+   - Permissions Excel
+
+🎯 AVANTAGES DE CETTE VERSION
+=============================
+
+✅ AUCUN RISQUE de fallback OpenPyXL
+✅ Garantie formatage conditionnel préservé
+✅ Messages d'erreur clairs et explicites
+✅ Diagnostic automatique des problèmes
+✅ Configuration Windows optimisée
+
+📋 ÉTAPES POUR VOTRE CLIENT
+============================
+
+1. Copiez le dossier sur PC Windows (Excel installé)
+2. Lancez "FORCER_XLWINGS.bat" en premier
+3. Si "XLWINGS PRET!" → Lancez "LANCER_ESG.bat"
+4. Si erreur → Suivez les instructions du diagnostic
+
+⚠️ PRÉREQUIS ABSOLUS
+====================
+
+❗ Microsoft Excel installé et fonctionnel
+❗ Windows 10/11
+❗ Droits utilisateur pour automatiser Excel
+
+================================================================================
+Cette version FORCE l'utilisation exclusive de XLWings.
+Plus aucun compromis sur le formatage!
+================================================================================
