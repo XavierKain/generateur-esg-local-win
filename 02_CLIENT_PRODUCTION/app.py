@@ -342,21 +342,21 @@ def page_generation_config():
                 # Boutons de sélection rapide (s'appliquent aux résultats filtrés)
                 col1, col2, col3 = st.columns(3)
                 with col1:
-                    if st.button("✅ Sélectionner tous (affichés)"):
+                    if st.button("✅ Sélectionner tout"):
                         # Ajouter les indices affichés à la sélection
                         current_selection = set(st.session_state.selected_questionnaire_indices)
                         current_selection.update(displayed_indices)
                         st.session_state.selected_questionnaire_indices = list(current_selection)
                         st.rerun()
                 with col2:
-                    if st.button("❌ Désélectionner tous (affichés)"):
+                    if st.button("❌ Désélectionner tout"):
                         # Retirer les indices affichés de la sélection
                         current_selection = set(st.session_state.selected_questionnaire_indices)
                         current_selection -= set(displayed_indices)
                         st.session_state.selected_questionnaire_indices = list(current_selection)
                         st.rerun()
                 with col3:
-                    if st.button("🔄 Inverser (affichés)"):
+                    if st.button("🔄 Inverser la sélection"):
                         # Inverser uniquement les éléments affichés
                         current_selection = set(st.session_state.selected_questionnaire_indices)
                         displayed_set = set(displayed_indices)
