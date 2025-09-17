@@ -19,5 +19,21 @@ echo.
 echo Pour arreter l'application, fermez cette fenetre.
 echo.
 
-REM Start Streamlit
-"%CD%\python311\python.exe" -m streamlit run app.py --server.headless true --server.port 8501 --server.address localhost
+REM Start Streamlit en arrière-plan
+start /min "ESG Server" "%CD%\python311\python.exe" -m streamlit run app.py --server.headless true --server.port 8501 --server.address localhost
+
+echo Demarrage du serveur en cours...
+echo Attente de 8 secondes pour que le serveur soit pret...
+timeout /t 8 /nobreak >nul
+
+echo Ouverture automatique du navigateur...
+start "" "http://localhost:8501"
+
+echo.
+echo ✅ L'application ESG s'ouvre dans votre navigateur !
+echo.
+echo Pour arreter l'application :
+echo - Fermez cette fenetre OU
+echo - Tapez Ctrl+C dans la fenetre minimisee "ESG Server"
+echo.
+pause

@@ -1,56 +1,56 @@
 ================================================================================
-                    GÉNÉRATEUR ESG - VERSION CLIENT FINALE
+                    GÉNÉRATEUR ESG - VERSION PORTABLE
 ================================================================================
 
-🎯 VERSION SIMPLIFIÉE POUR UTILISATION CLIENT
-📅 DATE : 16 Septembre 2025
-💻 CIBLE : Windows 11 avec Excel installé
+🎯 UTILISATION SIMPLE - 2 FAÇONS DE LANCER :
+
+📋 **LANCER_ESG.bat** (Recommandé pour débuter)
+→ Affiche une fenêtre terminal avec les informations
+→ Ouvre automatiquement le navigateur après 8 secondes
+→ Permet de voir si tout fonctionne correctement
+→ Utile pour débugger en cas de problème
+
+🎯 **LANCER_ESG_INVISIBLE.bat** (Mode client propre)
+→ Lancement totalement invisible
+→ Ouvre automatiquement le navigateur après 10 secondes
+→ Aucune fenêtre terminal visible
+→ Expérience utilisateur optimale
 
 ================================================================================
-                              🚀 UTILISATION
+                              📋 INSTRUCTIONS
 ================================================================================
 
-**ÉTAPE 1 : LANCEMENT**
-→ Double-cliquez sur "LANCER_ESG.bat"
-→ L'application s'ouvre automatiquement dans votre navigateur
-→ URL : http://localhost:8501
+1️⃣ **Première utilisation :**
+   → Double-cliquez sur LANCER_ESG.bat
+   → Vérifiez que tout fonctionne
+   → L'application s'ouvre sur http://localhost:8501
 
-**ÉTAPE 2 : UTILISATION**
-→ Uploadez votre base de données (.xlsx)
-→ Uploadez votre template de questionnaire (.xlsx)
-→ Sélectionnez l'année et les questionnaires
-→ Cliquez sur "Générer"
-→ Téléchargez le fichier zip avec tous les questionnaires
+2️⃣ **Utilisation quotidienne :**
+   → Double-cliquez sur LANCER_ESG_INVISIBLE.bat
+   → Attendez 10 secondes
+   → L'application s'ouvre automatiquement
 
-================================================================================
-                              📁 CONTENU DOSSIER
-================================================================================
-
-📄 LANCER_ESG.bat           → Script de lancement principal
-📄 app.py                   → Interface Streamlit
-📄 generateur_2025_streamlit.py → Moteur de génération
-📄 xlwings_generator.py     → Module XLWings
-📄 config_portable.py       → Configuration système
-📁 python311/               → Python portable + toutes dépendances
+3️⃣ **Pour arrêter l'application :**
+   → Fermez l'onglet du navigateur
+   → ET fermez les processus Python dans le Gestionnaire des tâches
 
 ================================================================================
-                              ⚠️ PRÉREQUIS
+                              🔧 EN CAS DE PROBLÈME
 ================================================================================
 
-✅ Windows 11 (ou Windows 10)
-✅ Microsoft Excel installé (2016+)
-❌ Aucune autre installation requise !
+❌ **L'application ne s'ouvre pas :**
+→ Utilisez LANCER_ESG.bat pour voir les erreurs
+→ Vérifiez qu'aucun autre programme utilise le port 8501
+→ Redémarrez votre ordinateur
+
+❌ **Erreur Excel/XLWings :**
+→ Vérifiez qu'Excel est bien installé sur votre système
+→ L'application nécessite Excel pour le formatage
+
+❌ **Problème de performance :**
+→ Fermez les autres applications
+→ Vérifiez l'espace disque disponible
 
 ================================================================================
-                              🛠️ EN CAS DE PROBLÈME
-================================================================================
-
-Si l'application ne démarre pas :
-1. Vérifiez qu'Excel est bien installé
-2. Lancez en tant qu'administrateur
-3. Contactez le support technique
-
-================================================================================
-Cette version contient UNIQUEMENT les fichiers nécessaires au client.
-Aucun fichier de diagnostic ou développement inclus.
+Cette application est 100% portable - aucune installation requise !
 ================================================================================
