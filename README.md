@@ -117,6 +117,10 @@ Pour toute question ou problème :
 2. Lancer les scripts de diagnostic
 3. Vérifier les logs dans `_archives_anciens_scripts/`
 
+## 👨‍💻 Auteur
+
+**XavierKain** - Développeur principal et créateur du projet
+
 ## 📄 Licence
 
 Projet développé pour usage interne. Tous droits réservés.
