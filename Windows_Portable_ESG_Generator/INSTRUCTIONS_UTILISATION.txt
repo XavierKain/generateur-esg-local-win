@@ -1,0 +1,74 @@
+================================================================================
+                    GÉNÉRATEUR ESG - VERSION PORTABLE WINDOWS 11
+================================================================================
+
+🚀 DÉMARRAGE RAPIDE (recommandé)
+================================
+
+1. Double-cliquez sur "DEMARRER_ESG.bat"
+   → Installation automatique + lancement de l'application
+
+⚠️ Si Python n'est pas installé:
+   → Le script vous guidera automatiquement
+   → Ou utilisez "INSTALLER_PYTHON.bat" directement
+
+C'est tout ! L'application s'ouvrira dans votre navigateur.
+
+
+📋 DÉMARRAGE ÉTAPE PAR ÉTAPE (optionnel)
+=========================================
+
+Si vous préférez contrôler chaque étape :
+
+1. Configuration initiale (une seule fois) :
+   → Double-cliquez sur "setup_windows.bat"
+
+2. Lancement de l'application :
+   → Double-cliquez sur "launch_esg_app.bat"
+
+
+🔧 DIAGNOSTIC EN CAS DE PROBLÈME
+=================================
+
+Si l'application ne fonctionne pas :
+→ Double-cliquez sur "diagnostic_windows.bat"
+
+Ce script vérifiera :
+- Installation de Python
+- Environnement virtuel
+- Fichiers de l'application
+- Port réseau
+
+
+📂 FICHIERS IMPORTANTS
+======================
+
+DEMARRER_ESG.bat          ← UTILISEZ CELUI-CI (plus simple)
+INSTALLER_PYTHON.bat      ← Installation Python si nécessaire
+setup_windows.bat         ← Configuration manuelle
+launch_esg_app.bat        ← Lancement manuel
+diagnostic_windows.bat    ← Résolution de problèmes
+README_WINDOWS.md         ← Documentation complète
+
+
+⚡ ACCÈS RAPIDE
+===============
+
+Une fois lancée, l'application est accessible à :
+http://localhost:8501
+
+Pour arrêter : Fermez la fenêtre de commande ou Ctrl+C
+
+
+💡 CONSEILS
+===========
+
+- Gardez ce dossier intact (ne pas déplacer les fichiers)
+- Python 3.8+ requis (télécharger sur python.org si besoin)
+- Lors de l'installation Python, cocher "Add Python to PATH"
+
+
+================================================================================
+Version ESG Generator v2.0 - Windows Portable Edition
+Compatible : Windows 10/11 + Python 3.8+
+================================================================================
